@@ -1,0 +1,80 @@
+.highlight {
+    padding: 15%;
+    image-orientation: auto;
+    background-image: url('images/image\ 2.png');
+    background-size: cover;
+}
+
+.second-highlight{
+    padding: 15%;
+    image-orientation: auto;
+    background-image: url('images/image\ 4.png');
+    background-size: cover;
+}
+
+.details {
+    display: flex;
+    gap: 16px;
+    align-items: flex;
+    padding: 0;
+}
+
+.details a {
+    width: 50%;
+    height: 25%;
+    padding: 2%;
+    text-decoration: none;
+    background-color: lightsteelblue;
+    border-radius: 5px;
+    color: black;
+}
+
+.teams {
+    display: flex;
+    flex-direction: column;
+}
+
+.teams h3 {
+    text-decoration: underline;
+}
+
+.teams ol {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: purple;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+}
+
+.teams ol li{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: blue; 
+    padding: 1% 0;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.images img {
+    width: 100%;
+    height: 200px;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.f1{
+    width: 50%;
+}
